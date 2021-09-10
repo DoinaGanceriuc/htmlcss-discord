@@ -8,21 +8,36 @@
 /* debug */
 .debug .site_main {
   background-color: aquamarine;
-  height: 800px;
 }
 .debug .blu_img {
   background-color: blue;
   height: 500px;
 }
-.debug .container {
+.debug .site_header {
   background-color: green;
   height: 50px;
 }
-.debug .title {
-  background-color: yellowgreen;
-  height: 450px;
+.debug .container {
+  background-color: lightcyan;
 }
 
+.debug .item_1,
+.debug .item_3 {
+  background-color: grey;
+  height: 400px;
+}
+.debug .item_2 {
+  background-color: lightyellow;
+  height: 400px;
+}
+.debug .item_4 {
+  background-color: lightyellow;
+  height: 550px;
+}
+.debug .site_footer {
+  background-color: darkblue;
+  height: 500px;
+}
 /* .blu_img {
   background-image: url("./img/jumbo.png");
   background-size: cover;
