@@ -4,3 +4,35 @@
   margin: 0;
   padding: 0;
 }
+
+/* debug */
+.debug .site_main {
+  background-color: aquamarine;
+  height: 800px;
+}
+.debug .blu_img {
+  background-color: blue;
+  height: 500px;
+}
+.debug .container {
+  background-color: green;
+  height: 50px;
+}
+.debug .title {
+  background-color: yellowgreen;
+  height: 450px;
+}
+
+/* .blu_img {
+  background-image: url("./img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.navig {
+  text-align: center;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
