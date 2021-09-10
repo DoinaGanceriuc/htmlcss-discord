@@ -9,7 +9,7 @@
 .debug .site_main {
   background-color: aquamarine;
 }
-.debug .blu_img {
+.debug .jumbo {
   background-color: blue;
   height: 500px;
 }
@@ -38,16 +38,64 @@
   background-color: darkblue;
   height: 500px;
 }
-/* .blu_img {
+.jumbo {
   background-image: url("./img/jumbo.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  padding-top: 0.5rem;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* .navig {
+  line-height: 130px;
 } */
 
-.navig {
-  text-align: center;
-}
 .container {
-  width: 1170px;
+  width: 70%;
   margin: auto;
+}
+
+.logo,
+.access {
+  vertical-align: middle;
+}
+
+.logo,
+.navig,
+.access {
+  float: left;
+}
+
+.logo,
+.access {
+  width: 10%;
+}
+
+.navig {
+  width: 80%;
+}
+
+.navig a {
+  margin-right: 1rem;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.access {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: none;
 }
