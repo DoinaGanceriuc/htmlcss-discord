@@ -202,7 +202,8 @@ header {
   background-color: black;
   color: white;
 }
-.btn_broswer:hover {
+.btn_broswer:hover,
+.last_btn_mac:hover {
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.205);
   cursor: pointer;
 }
@@ -224,21 +225,76 @@ header {
   width: 35%;
   padding: 1.5rem;
 }
-.section_title {
+.section_title,
+.last_section_title {
   font-size: 3rem;
 }
-.section_paragraphs {
+.section_paragraphs,
+.last_section_paragraphs {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.item_2 {
-  background-color: #f6f6f6;
-  background-image: url("./img/wave.svg");
-  background-blend-mode: overlay;
+path {
+  fill: #f6f6f6;
 }
 
+/* section item-4 */
+.last_server {
+  text-align: center;
+}
+
+.img_contact {
+  margin-left: 1rem;
+}
+.img_big {
+  width: 100%;
+}
+
+.adventure {
+  text-align: center;
+}
+
+.last_btn_mac {
+  background-color: #8ea1e1;
+  color: white;
+}
+
+.adventure h3 {
+  font-size: 2rem;
+}
 /* footer */
+footer {
+  background-color: #23272a;
+}
+footer h3 {
+  font-size: 2rem;
+}
+footer h3,
+footer h4 {
+  color: #7289da;
+}
+.menu {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.flag {
+  height: 20px;
+  vertical-align: middle;
+}
+.language {
+  color: white;
+  display: inline;
+  text-align: center;
+}
+.socials {
+  padding: 1rem 0;
+}
+.social {
+  color: white;
+  display: inline-block;
+  margin-right: 1rem;
+}
 .icons,
 .products,
 .company,
@@ -258,8 +314,43 @@ header {
   width: 16.66%;
 }
 
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+hr {
+  color: #48557d;
+}
+
 .footer_logo,
 .footer_register {
   float: left;
   width: 50%;
+  padding-top: 1.5rem;
+}
+.footer_logo {
+  vertical-align: middle;
+}
+.footer_register {
+  text-align: right;
+}
+.footer_pulsante {
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  background-color: #8ea1e1;
+  border: none;
+  color: white;
+}
+.footer_pulsante:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.pad_top {
+  padding-top: 1rem;
+}
+
+.copyright {
+  border-top: 1px solid #8ea1e1;
 }
