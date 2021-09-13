@@ -7,6 +7,10 @@
 }
 
 /* debug */
+.debug .site_header {
+  background-color: green;
+  height: 100px;
+}
 .debug .site_main {
   background-color: aquamarine;
 }
@@ -14,27 +18,28 @@
   background-color: blue;
   height: 500px;
 }
-.debug .site_header {
-  background-color: green;
-  height: 50px;
-}
 .debug .container {
   background-color: lightcyan;
 }
 
 .debug .item_1,
-.debug .item_3 {
-  background-color: grey;
-  height: 400px;
-}
-.debug .item_2 {
-  background-color: lightyellow;
-  height: 400px;
-}
+.debug .item_2,
+.debug .item_3,
 .debug .item_4 {
-  background-color: lightyellow;
-  height: 550px;
+  background-color: grey;
+  height: 800px;
 }
+
+.debug .img_study {
+  height: 800px;
+  background-color: lightyellow;
+}
+
+.debug .server {
+  height: 800px;
+  background-color: lightcyan;
+}
+
 .debug .site_footer {
   background-color: darkblue;
   height: 500px;
@@ -131,7 +136,6 @@ header {
   color: white;
   font-size: 1.5rem;
   padding: 1rem;
-  font-weight: 600;
 }
 
 .btn_mac,
@@ -139,8 +143,7 @@ header {
 .last_btn_mac {
   padding: 0.5rem 1.5rem;
   border-radius: 1.5rem;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border: none;
   margin: 1rem;
 }
@@ -155,9 +158,9 @@ header {
   color: white;
 }
 
-.common {
+/* .common {
   padding-top: 5rem;
-}
+} */
 
 .img_study,
 .server {
