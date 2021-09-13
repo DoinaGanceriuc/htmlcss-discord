@@ -73,39 +73,14 @@
   height: 200px;
   background-color: mediumslateblue;
 }
-.jumbo {
-  background-image: url("./img/jumbo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 625px;
-  position: relative;
-}
-.img_jumbo {
-  width: 100%;
-}
 
+/* header */
 header {
   background-color: #255ee9;
   text-align: center;
   width: 100%;
   padding: 1.5rem;
 }
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* .navig {
-  line-height: 130px;
-} */
-
-.container {
-  width: 70%;
-  margin: auto;
-}
-
 .logo,
 .access {
   vertical-align: middle;
@@ -159,6 +134,30 @@ header {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.205);
   color: blue;
 }
+
+/* main */
+.jumbo {
+  background-image: url("./img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 625px;
+  position: relative;
+}
+.img_jumbo {
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -207,10 +206,11 @@ header {
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.205);
   cursor: pointer;
 }
+/* section item-1 */
 
-/* .common {
-  padding-top: 5rem;
-} */
+.common {
+  padding: 5rem 0rem;
+}
 
 .img_study,
 .server {
@@ -230,6 +230,12 @@ header {
 .section_paragraphs {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.item_2 {
+  background-color: #f6f6f6;
+  background-image: url("./img/wave.svg");
+  background-blend-mode: overlay;
 }
 
 /* footer */
