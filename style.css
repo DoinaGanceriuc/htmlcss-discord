@@ -234,8 +234,15 @@ header {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.item_2,
+.item_4 {
+  background-color: #f6f6f6;
+}
+.wave path {
+  fill: white;
+}
 
-path {
+.wave_1 path {
   fill: #f6f6f6;
 }
 
