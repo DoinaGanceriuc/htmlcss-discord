@@ -44,6 +44,35 @@
   background-color: darkblue;
   height: 500px;
 }
+.debug .menu {
+  height: 300px;
+}
+.debug .copyright {
+  height: 200px;
+}
+
+.debug .icons {
+  height: 300px;
+  background-color: limegreen;
+}
+
+.debug .products,
+.debug .company,
+.debug .sources,
+.debug .rules {
+  height: 300px;
+  background-color: mediumaquamarine;
+}
+
+.debug .footer_logo {
+  height: 200px;
+  background-color: mediumpurple;
+}
+
+.debug .footer_register {
+  height: 200px;
+  background-color: mediumslateblue;
+}
 .jumbo {
   background-image: url("./img/jumbo.png");
   background-size: cover;
@@ -180,4 +209,30 @@ header {
 .section_paragraphs {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+/* footer */
+.icons,
+.products,
+.company,
+.sources,
+.rules {
+  float: left;
+}
+
+.icons {
+  width: 33.33%;
+}
+
+.products,
+.company,
+.sources,
+.rules {
+  width: 16.66%;
+}
+
+.footer_logo,
+.footer_register {
+  float: left;
+  width: 50%;
 }
