@@ -268,8 +268,32 @@ footer h4 {
   display: inline;
   text-align: center;
 }
+
+/* .languages {
+ 
+} */
 .languages:hover {
   cursor: pointer;
+}
+.menu_languages {
+  display: none;
+  position: absolute;
+  top: -7rem;
+  left: 0;
+  height: 165px;
+  width: 120px;
+  background-color: white;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+.menu_languages li {
+  color: black;
+  padding-left: 5px;
+}
+.languages:hover .menu_languages {
+  display: block;
+  cursor: pointer;
+  z-index: 1;
 }
 .socials {
   padding: 1rem 0;
@@ -297,6 +321,7 @@ footer h4 {
 }
 .icons {
   width: 33.33%;
+  position: relative;
 }
 .products,
 .company,
